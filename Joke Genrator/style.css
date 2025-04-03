@@ -1,0 +1,41 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    width: 450px;
+    padding: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color: rgb(32, 133, 133);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+button{
+    /* width: 130px; */
+    /* height: 38px; */
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 600;
+}
+button:active{
+    background-color: rgb(199, 54, 41);
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+h3{
+    height: 90px;
+    width: auto;
+    /* border: 2px solid; */
+}
+img{
+    width: 20%;
+}
