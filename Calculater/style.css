@@ -1,0 +1,72 @@
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Poppins' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    background-color: hsl(0, 0%, 30%);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+background-color: hsl(0, 0%, 55%);
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+}
+
+.opreater{
+    background-color: hsl(33, 100%, 50%);
+}
+
+.operater:hover{
+    background-color: hsl(33, 100%, 60%);
+}
+.operater:active{
+    background: hsl(33, 100%, 70%);
+}
+
+.calculater{
+    background: hsl(0, 0%, 15%);
+    width: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    padding-right: -40px;
+}
+
+.display{
+    /* width: 100%; */
+    background: hsl(0, 0%, 20%);
+    color: #fff;
+    padding: 20px;
+    font-size: 80px;
+    text-align: right;
+    border: none;
+    pointer-events: none;
+}
