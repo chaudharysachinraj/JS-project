@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(225, 222, 222);
+}
+.container{
+    background-color: rgb(6, 124, 170);
+    width: 450px;
+    margin: 22px;
+    margin-left: 30%;
+    border-radius: 4px;
+}
+.qns{
+display: flex;
+margin-left: 22px;
+color: #fff;
+height: 55px;
+}
+.hide{
+    display: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 33px;
+    margin-left: 150px;
+}
+.ans{
+    background-color: #fff;
+    margin-top: -11px;
+    
+}
+.ans p{
+    padding: 15px;
+    margin-left: 6px;
+    display: none;
+}
+.active p{
+    display: block;
+}
